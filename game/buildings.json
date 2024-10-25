@@ -1,0 +1,211 @@
+{
+    "buildings": [
+        {
+            "name": "Market",
+            "cost": "11000",
+            "effect": {
+                "type": "active",
+                "description": "Convert two of your own currencies to one of the supporter"
+            },
+            "points": 0
+        },
+        {
+            "name": "Producer",
+            "cost": "20000",
+            "effect": {
+                "type": "active",
+                "description": "Gain one of your own currency."
+            },
+            "points": 0
+        },
+        {
+            "name": "Developing Land",
+            "cost": "11000",
+            "effect": {
+                "type": "once",
+                "description": "Any Contributor can reshuffle the building row"
+            },
+            "points": 0
+        },
+        {
+            "name": "Communal Garden",
+            "cost": "01100",
+            "effect": {
+                "type": "active",
+                "description": "One supporter gains one currency type of the owner of the Communal Garden."
+            },
+            "points": "+1 per supporter"
+        },
+        {
+            "name": "Theater",
+            "cost": "21000",
+            "effect": {
+                "type": "active",
+                "description": "The Supporter chooses another building in the neighborhood and activate it."
+            },
+            "points": 1
+        },
+        {
+            "name": "Harbor",
+            "cost": "11100",
+            "effect": {
+                "type": "active",
+                "description": "Convert two of your own currencies to one of the supporter."
+            },
+            "points": 1
+        },
+        {
+            "name": "Water Treatment Plant",
+            "cost": "21100",
+            "effect": {
+                "type": "active",
+                "description": "Owner and supporters both gain one currency of any player."
+            },
+            "points": 2
+        },
+        {
+            "name": "Public Library",
+            "cost": "21100",
+            "effect": {
+                "type": "active",
+                "description": "Gain two of your own currencies. Supporters get one of their own currencies."
+            },
+            "points": 2
+        },
+        {
+            "name": "Food Cooperative",
+            "cost": "20000",
+            "effect": {
+                "type": "once",
+                "description": "Every player gains 1 currency. Owner gains +1 point for each player that benefited."
+            },
+            "points": "0"
+        },
+        {
+            "name": "Reforested park",
+            "cost": "21000",
+            "effect": {
+                "type": "passive",
+                "description": "At the end of the game, gain 1 point for each supporter's coin in the neighboorhood."
+            },
+            "points": 1
+        },
+        {
+            "name": "Local Church",
+            "cost": "30000",
+            "effect": {
+                "type": "once",
+                "description": "Every player discards a currency"
+            },
+            "points": "+1 per player"
+        },
+        {
+            "name": "Offshore Wind Farm",
+            "cost": "21000",
+            "effect": {
+                "type": "active",
+                "description": "Contributors get one currency of their choice."
+            },
+            "points": 2
+        },
+        {
+            "name": "Photovoltaic System",
+            "cost": "31100",
+            "effect": {
+                "type": "active",
+                "description": "Each contributing players gets two random currencies."
+            },
+            "points": 1
+        },
+        {
+            "name": "Nuclear Power Plant",
+            "cost": "31100",
+            "effect": {
+                "type": "passive",
+                "description": "At the end of the game, gain one points for each supporter's coin in the neighboorhood."
+            },
+            "points": 3
+        },
+        {
+            "name": "Recycling Plant",
+            "cost": "20000",
+            "effect": {
+                "type": "active",
+                "description": "Choose a building and place it at the top of the row."
+            },
+            "points": 1
+        },
+        {
+            "name": "Community Center",
+            "cost": "21100",
+            "effect": {
+                "type": "active",
+                "description": "Gain one of your own currencies. Supporters get one of their own currencies."
+            },
+            "points": 2
+        },
+        {
+            "name": "Swimming Pool",
+            "cost": "20000",
+            "effect": {
+                "type": "once",
+                "description": "Next building costs 1 less currency to build for the owner."
+            },
+            "points": 1
+        },
+        {
+            "name": "Train Station",
+            "cost": "21000",
+            "effect": {
+                "type": "active",
+                "description": "Any Contributor can reshuffle the building row"
+            },
+            "points": 2
+        },
+        {
+            "name": "Hospital",
+            "cost": "30000",
+            "effect": {
+                "type": "once",
+                "description": "The owner can invest in any building of the row without investing in the previous ones"
+            },
+            "points": 2
+        },
+        {
+            "name": "Incinerator",
+            "cost": "21000",
+            "effect": {
+                "type": "once",
+                "description": "Pay 1 currency and buildings do not activate"
+            },
+            "points": 4
+        },
+        {
+            "name": "Skyscraper",
+            "cost": "22200",
+            "effect": {
+                "type": "active",
+                "description": "Double the effect of another active building in the neighborhood"
+            },
+            "points": 2
+        },
+        {
+            "name": "Scrapyard",
+            "cost": "20000",
+            "effect": {
+                "type": "Once",
+                "description": "Discard a currency to get one point. Can get a maximum of three points"
+            },
+            "points": 1
+        },
+        {
+            "name": "Research Laboratory",
+            "cost": "11100",
+            "effect": {
+                "type": "Once",
+                "description": "Re-activate the effect of a building that is otherwise activated only once"
+            },
+            "points": 3
+        }
+    ]
+}
