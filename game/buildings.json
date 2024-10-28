@@ -206,6 +206,42 @@
                 "description": "Re-activate the effect of a building that is otherwise activated only once"
             },
             "points": 3
+        },
+        {
+            "name": "Residential Complex",
+            "cost": "31000",
+            "effect": {
+                "type": "passive",
+                "description": "If the player has built two buildings that cost 4 or more coins, gain 1 coin for each one of them"
+            },
+            "points": 2
+        },
+        {
+            "name": "Cathedral",
+            "cost": "41100",
+            "effect": {
+                "type": "passive",
+                "description": "If the player has completed at least two neighborhood, buildings cost 1 less currency "
+            },
+            "points": 3
+        },
+        {
+            "name": "Car Factory",
+            "cost": "21100",
+            "effect": {
+                "type": "once",
+                "description": "All contributors can invest in two buildings during the next turn"
+            },
+            "points": 2
+        },
+        {
+            "name": "Smelting Plant",
+            "cost": "21100",
+            "effect": {
+                "type": "once",
+                "description": "If the neighborhood has buildings of all three types, investors gain 2 currencies"
+            },
+            "points": 2
         }
     ]
 }
