@@ -5,7 +5,8 @@
             "cost": "11000",
             "effect": {
                 "type": "active",
-                "description": "Convert two of your own currencies to one of the supporter"
+                "description": "Convert two of your own currencies to one of the supporter",
+                "encoded": "♔:●●→✫♖"
             },
             "points": 0
         },
@@ -23,7 +24,7 @@
             "cost": "11000",
             "effect": {
                 "type": "once",
-                "description": "Any Contributor can reshuffle the building row"
+                "description": "Any investor can reshuffle the building row"
             },
             "points": 0
         },
