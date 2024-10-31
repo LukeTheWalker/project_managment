@@ -15,7 +15,8 @@
             "cost": "20000",
             "effect": {
                 "type": "active",
-                "description": "Gain one of your own currency."
+                "description": "Gain one of your own currency.",
+                "encoded" : "♔:+●"
             },
             "points": 0
         },
@@ -24,7 +25,8 @@
             "cost": "11000",
             "effect": {
                 "type": "once",
-                "description": "Any investor can reshuffle the building row"
+                "description": "Any investor can reshuffle the building row",
+                "encoded" : "♔/♖:♲"
             },
             "points": 0
         },
@@ -33,7 +35,8 @@
             "cost": "01100",
             "effect": {
                 "type": "active",
-                "description": "One supporter gains one currency type of the owner of the Communal Garden."
+                "description": "One supporter gains one currency type of the owner of the Communal Garden.",
+                "encoded" : "♔☞♖:+●♔"
             },
             "points": "+1 per supporter"
         },
@@ -42,7 +45,8 @@
             "cost": "21000",
             "effect": {
                 "type": "active",
-                "description": "The Supporter chooses another building in the neighborhood and activate it."
+                "description": "The Supporter chooses another building in the neighborhood and activate it.",
+                "encoded" : "♖:⚡⌂⥀"
             },
             "points": 1
         },
@@ -51,7 +55,8 @@
             "cost": "11100",
             "effect": {
                 "type": "active",
-                "description": "Convert two of your own currencies to one of the supporter."
+                "description": "Convert two of your own currencies to one of the supporter.",
+                "encoded": "♔:●●→✫♖"
             },
             "points": 1
         },
@@ -60,7 +65,8 @@
             "cost": "21100",
             "effect": {
                 "type": "active",
-                "description": "Owner and supporters both gain one currency of any player."
+                "description": "Owner and supporters both gain one currency of any player.",
+                "encoded": "♔/♖:+✫"
             },
             "points": 2
         },
@@ -69,7 +75,8 @@
             "cost": "21100",
             "effect": {
                 "type": "active",
-                "description": "Gain two of your own currencies. Supporters get one of their own currencies."
+                "description": "Gain two of your own currencies. Supporters get one of their own currencies.",
+                "encoded" : "♔:+●●,♖:+●"
             },
             "points": 2
         },
@@ -78,7 +85,8 @@
             "cost": "20000",
             "effect": {
                 "type": "once",
-                "description": "Every player gains 1 currency. Owner gains +1 point for each player that benefited."
+                "description": "Every player gains 1 currency. Owner gains +1 currency for each player that benefited.",
+                "encoded" : "♔:∀♟+●→♔+●"
             },
             "points": "0"
         },
@@ -87,7 +95,8 @@
             "cost": "21000",
             "effect": {
                 "type": "passive",
-                "description": "At the end of the game, gain 1 point for each supporter's coin in the neighboorhood."
+                "description": "At the end of the game, gain 1 point for each supporter's coin in the neighboorhood.",
+                "encoded" : "♔:∀✫⥀→+✷"
             },
             "points": 1
         },
@@ -96,7 +105,8 @@
             "cost": "30000",
             "effect": {
                 "type": "once",
-                "description": "Every player discards a currency"
+                "description": "Every player discards a currency",
+                "encoded" : "♟:-●"
             },
             "points": "+1 per player"
         },
@@ -105,7 +115,8 @@
             "cost": "21000",
             "effect": {
                 "type": "active",
-                "description": "Contributors get one currency of their choice."
+                "description": "Contributors get one currency of their choice.",
+                "encoded" : "♔/♖:+✫"
             },
             "points": 2
         },
@@ -114,16 +125,18 @@
             "cost": "31100",
             "effect": {
                 "type": "active",
-                "description": "Each contributing players gets two random currencies."
+                "description": "Supporters get one currency of the owner, owner gets 2 of any supporter",
+                "encoded" : "♔:+✫✫♖,♖:+●"
             },
-            "points": 1
+            "points": 2
         },
         {
             "name": "Nuclear Power Plant",
             "cost": "31100",
             "effect": {
                 "type": "passive",
-                "description": "At the end of the game, gain one points for each supporter's coin in the neighboorhood."
+                "description": "At the end of the game, gain one points for each supporter's coin in the neighboorhood.",
+                "encoded" : "♔:∀✫♖⥀→+✷"
             },
             "points": 3
         },
@@ -132,7 +145,8 @@
             "cost": "20000",
             "effect": {
                 "type": "active",
-                "description": "Choose a building and place it at the top of the row."
+                "description": "Choose a building and place it at the top of the row.",
+                "encoded" : "♔:⌂↑⟗"
             },
             "points": 1
         },
@@ -141,7 +155,8 @@
             "cost": "21100",
             "effect": {
                 "type": "active",
-                "description": "Gain one of your own currencies. Supporters get one of their own currencies."
+                "description": "Gain one of your own currencies. Supporters get one of their own currencies.",
+                "encoded" : "♔:+●,♖:+●♖"
             },
             "points": 2
         },
@@ -150,7 +165,8 @@
             "cost": "20000",
             "effect": {
                 "type": "once",
-                "description": "Next building costs 1 less currency to build for the owner."
+                "description": "Next building costs 1 less currency to build for the owner.",
+                "encoded" : "♔:⌂-●"
             },
             "points": 1
         },
@@ -159,16 +175,18 @@
             "cost": "21000",
             "effect": {
                 "type": "active",
-                "description": "Any Contributor can reshuffle the building row"
+                "description": "Any Contributor can reshuffle the building row",
+                "encoded" : "♔/♖:♲"
             },
-            "points": 2
+            "points": 1
         },
         {
             "name": "Hospital",
             "cost": "30000",
             "effect": {
                 "type": "once",
-                "description": "The owner can invest in any building of the row without investing in the previous ones"
+                "description": "The owner can invest in any building of the row without investing in the previous ones",
+                "encoded": "♔:¬💶⌂⟗"
             },
             "points": 2
         },
@@ -177,7 +195,8 @@
             "cost": "21000",
             "effect": {
                 "type": "once",
-                "description": "Pay 1 currency and buildings do not activate"
+                "description": "Pay 1 currency and buildings do not activate",
+                "encoded" : "♔:-●,∀⌂¬⚡"
             },
             "points": 4
         },
@@ -186,7 +205,8 @@
             "cost": "22200",
             "effect": {
                 "type": "active",
-                "description": "Double the effect of another active building in the neighborhood"
+                "description": "Double the effect of another active building in the neighborhood",
+                "encoded" : "♔:2⚡🟩⌂⥀"
             },
             "points": 2
         },
@@ -195,7 +215,8 @@
             "cost": "20000",
             "effect": {
                 "type": "Once",
-                "description": "Discard a currency to get one point. Can get a maximum of three points"
+                "description": "Discard a currency to get one point. Can get a maximum of three points",
+                "encoded" : "♔:-●→✷|3"
             },
             "points": 1
         },
@@ -204,7 +225,8 @@
             "cost": "11100",
             "effect": {
                 "type": "Once",
-                "description": "Re-activate the effect of a building that is otherwise activated only once"
+                "description": "Re-activate the effect of a building that is otherwise activated only once",
+                "encoded" : "♔:⚡🟪⌂"
             },
             "points": 3
         },
@@ -213,7 +235,8 @@
             "cost": "31000",
             "effect": {
                 "type": "passive",
-                "description": "If the player has built two buildings that cost 4 or more coins, gain 1 coin for each one of them"
+                "description": "If the player has built two buildings that cost 4 or more coins, gain 1 coin for each one of them",
+                "encoded" : "♔:∀⌂€≥6→+●"
             },
             "points": 2
         },
@@ -222,7 +245,8 @@
             "cost": "41100",
             "effect": {
                 "type": "passive",
-                "description": "If the player has completed at least two neighborhood, buildings cost 1 less currency "
+                "description": "If the player has completed at least two neighborhood, buildings cost 1 less currency ",
+                "encoded" : "♔:∃⥀≥2→⌂-✫"
             },
             "points": 3
         },
@@ -231,7 +255,8 @@
             "cost": "21100",
             "effect": {
                 "type": "once",
-                "description": "All contributors can invest in two buildings during the next turn"
+                "description": "All contributors can invest in two buildings during the next turn",
+                "encoded" : "♔/♖:💶2⌂"
             },
             "points": 2
         },
@@ -240,7 +265,8 @@
             "cost": "21100",
             "effect": {
                 "type": "once",
-                "description": "If the neighborhood has buildings of all three types, investors gain 2 currencies"
+                "description": "If the neighborhood has buildings of all three types, investors gain 2 currencies",
+                "encoded" : "♔:∃⥀:🟩🟪🟫⌂→+2●"
             },
             "points": 2
         }
