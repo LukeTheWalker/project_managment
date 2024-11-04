@@ -228,7 +228,7 @@
                 "description": "Re-activate the effect of a building that is otherwise activated only once",
                 "encoded" : "♔:⚡🟪⌂"
             },
-            "points": 3
+            "points": 2
         },
         {
             "name": "Residential Complex",
@@ -246,7 +246,7 @@
             "effect": {
                 "type": "passive",
                 "description": "If the player has completed at least two neighborhood, buildings cost 1 less currency ",
-                "encoded" : "♔:∃⥀≥2→⌂-✫"
+                "encoded" : "♔:∃(⥀:3⌂)≥2→⌂-✫"
             },
             "points": 3
         },
@@ -265,10 +265,30 @@
             "cost": "21100",
             "effect": {
                 "type": "once",
-                "description": "If the neighborhood has buildings of all three types, investors gain 2 currencies",
-                "encoded" : "♔:∃⥀:🟩🟪🟫⌂→+2●"
+                "description": "If the owner has a neighborhood with buildings of all three types, investors gain 2 currencies",
+                "encoded" : "♔:∃⥀:🟩🟪🟫⌂→+●●"
             },
             "points": 2
+        },
+        {
+            "name": "Semiconductor Foundry",
+            "cost": "31100",
+            "effect": {
+                "type": "once",
+                "description": "If this building completes a neighborhood, gain 3 currencies, Supporters gain 2 currencies",
+                "encoded" : "♔:⇓⥀:3⌂→+●●●,♖:+●●"
+            },
+            "points": 3
+        },
+        {
+            "name": "University",
+            "cost": "30000",
+            "effect": {
+                "type": "passive",
+                "description": "If the owner has less than 2 currencies, gain 2 currencies",
+                "encoded" : "♔:●<2→+●●"
+            },
+            "points": 1
         }
     ]
 }
